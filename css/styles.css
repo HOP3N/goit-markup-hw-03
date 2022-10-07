@@ -44,10 +44,48 @@ a {
   text-decoration: none;
 }
 
+.header {
+  background-color: var(--sub-text-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.section-one-wrap {
+  padding: 200px 452px 280px;
+  
+  background-color: #212121;
+}
+
+.title-first {  
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sub-text-color);
+  /* position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px; */
+}
+
+.title-first {
+  margin-bottom: 40px;
+}
+
+.btn-main-index {
+  margin-top: 40px;
 }
 
 .logo-header {
