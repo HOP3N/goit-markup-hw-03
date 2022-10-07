@@ -2,6 +2,35 @@
   --main-text-color: #212121;
   --sub-text-color: #ffffff;
   --text-contact: #757575;
+  --text-hover-color: #2196f3;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  line-height: initial;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
 }
 
 body {
@@ -13,6 +42,12 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .logo-header {
@@ -35,7 +70,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
-  color: #2196f3;
+  color: var(--text-hover-color);
   list-style: none;
 }
 
@@ -65,14 +100,14 @@ a {
 }
 
 .header-link.current {
-  color: #2196f3;
+  color: var(--text-hover-color);
   list-style: none;
   background-color: none;
 }
 
 .header-link:hover,
 :focus {
-  color: #2196f3;
+  color: var(--text-hover-color);
   background-color: transparent;
 }
 
@@ -113,7 +148,7 @@ a {
 .btn-main:hover,
 :focus {
   color: var(--sub-text-color);
-  background-color: #2196f3;
+  background-color: var(--text-hover-color);
 }
 
 .title {
@@ -143,7 +178,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
-  color: #2196f3;
+  color: var(--text-hover-color);
 }
 
 .logo-footer-white {
@@ -152,7 +187,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19px;
-  color: #2196f3;
+  color: var(--text-hover-color);
   color: var(--sub-text-color);
 }
 
