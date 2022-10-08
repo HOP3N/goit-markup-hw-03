@@ -50,7 +50,7 @@ a {
   padding-bottom: 25px;
 }
 
-/* .container {
+.container {
   
   width: 1200px;
   padding-left: 15px;
@@ -58,7 +58,7 @@ a {
   margin: 0 auto;
   outline: 2px solid red;
   background-color: #212121;
-} */
+}
 
 
 .logo-header {
@@ -129,6 +129,23 @@ a {
   line-height: 1.14px;
   letter-spacing: 0.02em;
   color: var(--text-contact);
+}
+
+.hero-wrap {
+  padding: 200px 452px 208px;
+  
+}
+
+.title-first {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
 }
 
 .visually-hidden {
