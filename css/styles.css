@@ -66,7 +66,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   background-color: transparent;
 }
 
@@ -80,7 +80,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--text-hover-color);
   list-style: none;
 }
@@ -90,7 +90,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--main-text-color);
   list-style: none;
 }
@@ -104,7 +104,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   background-color: transparent;
@@ -126,13 +126,13 @@ a {
 .contact-number {
   font-style: normal;
   font-weight: 500;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-contact);
 }
 
 .hero-wrap {
-  padding: 200px 452px 208px;
+  padding: 200px 0px 208px;
   
 }
 
@@ -140,12 +140,12 @@ a {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
-  
+  max-width: 696px;
 }
 
 .visually-hidden {
@@ -167,7 +167,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62;
   text-align: center;
   color: var(--main-text-color);
   cursor: pointer;
@@ -183,7 +183,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
@@ -191,7 +191,7 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.88px;
+  line-height: 1.19;
   color: var(--text-contact);
 }
 
@@ -205,7 +205,7 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--text-hover-color);
 }
 
@@ -214,14 +214,14 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   color: var(--text-hover-color);
   color: var(--sub-text-color);
 }
 
 .adress {
   font-weight: 400;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--sub-text-color);
   font-style: normal;
 }
@@ -230,6 +230,6 @@ a {
 .contact-number-footer {
   font-style: normal;
   font-weight: 400;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
