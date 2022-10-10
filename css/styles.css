@@ -45,7 +45,7 @@ a {
 }
 
 .header {
-  background-color: var(--sub-text-color);
+  max-height: 80px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -55,9 +55,9 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: ;
   margin: 0 auto;
   outline: 2px solid red;
-  background-color: #212121;
 }
 
 
@@ -131,21 +131,37 @@ a {
   color: var(--text-contact);
 }
 
-.hero-wrap {
+.hero {
   padding: 200px 0px 208px;
-  
+  text-align: center;
+  background-color: #212121;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
+
 
 .title-first {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
   max-width: 696px;
+  margin: auto;
+}
+
+.btn-main-index {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px 32px;
+  color: var(--sub-text-color);
+  background-color: var(--text-hover-color);
+  
 }
 
 .visually-hidden {
@@ -179,6 +195,12 @@ a {
   background-color: var(--text-hover-color);
 }
 
+  /* --------------BENEFITS---------- */
+
+.title-benefits {
+  
+}
+
 .title {
   font-style: normal;
   font-weight: 700;
@@ -187,6 +209,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
+
 .sub-title {
   font-style: normal;
   font-weight: 400;
