@@ -54,6 +54,7 @@ img {
   padding-bottom: 25px;
 }
 
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -68,8 +69,12 @@ img {
 }
 
 .navigation {
-  
+  display: flex;
+  gap: 30px;
+  /* justify-content: flex; */
 }
+
+ 
 
 .logo-header {
   font-family: "Raleway", sans-serif;
@@ -79,6 +84,7 @@ img {
   line-height: 1.19;
   background-color: transparent;
 }
+
 
 .logo-header-blue {
   color: var(--text-hover-color);
@@ -115,11 +121,16 @@ img {
   background-color: transparent;
 }
 
+.list-header { 
+  display: flex;
+  gap: 30px;
+  text-align: center;
+}
+
+
 .contact-mail,
 .contact-number {
-  font-style: normal;
   font-weight: 500;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-contact);
 }
