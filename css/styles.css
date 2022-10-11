@@ -55,11 +55,9 @@ img {
 }
 
 .container {
-  
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: ;
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -67,6 +65,10 @@ img {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.navigation {
+  
 }
 
 .logo-header {
@@ -78,31 +80,13 @@ img {
   background-color: transparent;
 }
 
-.logo-header {
-  list-style: none;
-  background-color: none;
-}
-
 .logo-header-blue {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   color: var(--text-hover-color);
-  list-style: none;
 }
 
 .logo-header-black {
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
   color: var(--main-text-color);
-  list-style: none;
 }
-
 
 .list-item {
   list-style: none;
@@ -231,12 +215,26 @@ img {
   max-width: 270px;
 }
 
+/* -----------------SERVICES-------------------- */
+
+.services {
+  padding-top: 0;
+}
+
 .title-services {
-  padding-top: 118px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
 }
 
 .list-item {
 }
+
+/* ---------------CONTACTS------------------- */
 
 .footer {
   background-color: #2f303a;
