@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .header {
   max-height: 80px;
   padding-top: 24px;
@@ -198,10 +202,11 @@ a {
   /* --------------BENEFITS---------- */
 
 .title-benefits {
-  
-}
+  padding-top: 94px;
+  padding-bottom: 10px;
+/* }
 
-.title {
+.title { */
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -216,6 +221,16 @@ a {
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-contact);
+  max-width: 270px;
+  height: 72px;
+}
+
+.title-serrvices {
+  padding-top: 118px;
+}
+
+.list-item {
+  padding-top: 50px;
 }
 
 .footer {
