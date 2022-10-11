@@ -64,6 +64,10 @@ img {
   outline: 2px solid red;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .logo-header {
   font-family: "Raleway", sans-serif;
@@ -98,6 +102,7 @@ img {
   color: var(--main-text-color);
   list-style: none;
 }
+
 
 .list-item {
   list-style: none;
@@ -201,16 +206,19 @@ img {
 
   /* --------------BENEFITS---------- */
 
+.benefits-list {
+  display: flex;
+  column-gap: 30px;
+}
+
 .title-benefits {
-  padding-top: 94px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 /* }
 
 .title { */
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  line-height: 1.1;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
 }
@@ -218,19 +226,16 @@ img {
 .sub-title {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.7;
   color: var(--text-contact);
   max-width: 270px;
-  height: 72px;
 }
 
-.title-serrvices {
+.title-services {
   padding-top: 118px;
 }
 
 .list-item {
-  padding-top: 50px;
 }
 
 .footer {
