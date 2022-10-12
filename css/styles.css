@@ -48,6 +48,8 @@ img {
   display: block;
 }
 
+/* ----------------HEADER----------------- */
+
 .header {
   height: 80px;
   display: flex;
@@ -146,7 +148,7 @@ img {
 .hero {
   padding: 200px 0px 200px;
   text-align: center;
-  background-color: var(--main-text-color);
+  background-color: #2f303a;
 }
 
 .title-first {
@@ -249,8 +251,8 @@ img {
   padding-bottom: 50px;
 }
 
-.list-item-services {
-}
+/* .list-item-services {
+} */
 
 /* ---------------TEAM-------------- */
 
@@ -266,7 +268,6 @@ img {
   text-align: center;
   color: var(--main-text-color);
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .list-team {
@@ -315,8 +316,8 @@ margin-bottom: 10px;
   padding-bottom: 60px;
 }
 
-.logo-footer {
-}
+/* .logo-footer {
+} */
 
 .logo-footer-blue {
   font-family: "Raleway", sans-serif;
@@ -344,17 +345,17 @@ margin-bottom: 10px;
   margin-bottom: 9px;
 }
 
+.list-item-footer:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.list-item-footer {
+  list-style: none;
+}
+
 .contact-mail-footer,
 .contact-number-footer {
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.contact-mail-footer {
-  margin-bottom: 9px;
-}
-/* 
-.contact-number-footer {
-  margin-top: 9px;
-} */
