@@ -49,18 +49,16 @@ img {
 }
 
 .header {
-  max-height: 80px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  height: 80px;
+  display: flex;
 }
-
 
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .header-main {
@@ -84,7 +82,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   background-color: transparent;
-  margin-left: 93px;
+  margin-right: 93px;
 }
 
 .logo-header-blue {
@@ -122,17 +120,18 @@ img {
   background-color: transparent;
 }
 
-.list-header { 
+.list-header {
   display: flex;
   gap: 30px;
   text-align: center;
-  justify-content: flex-end;
 }
 
 .list-header-contacts {
-  margin-left: auto;
+  display: flex;
   align-items: center;
   gap: 50px;
+  margin-left: 344px;
+  justify-content: flex-end;
 }
 
 .contact-mail,
@@ -148,10 +147,6 @@ img {
   padding: 200px 0px 200px;
   text-align: center;
   background-color: var(--main-text-color);
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
 }
 
 .title-first {
@@ -161,7 +156,7 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   max-width: 696px;
   margin: auto;
 }
@@ -173,6 +168,7 @@ img {
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
   border-color: transparent;
+  border-radius: 4px;
 }
 
 .visually-hidden {
@@ -206,7 +202,7 @@ img {
   background-color: var(--text-hover-color);
 }
 
-  /* --------------BENEFITS---------- */
+/* --------------BENEFITS---------- */
 
 .benefits-list {
   display: flex;
@@ -215,9 +211,7 @@ img {
 
 .title-benefits {
   margin-bottom: 10px;
-/* }
-
-.title { */
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
@@ -228,7 +222,6 @@ img {
 .sub-title {
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.7;
   color: var(--text-contact);
   max-width: 270px;
@@ -243,6 +236,7 @@ img {
 .services-list {
   display: flex;
   column-gap: 30px;
+  list-style: none;
 }
 
 .title-services {
@@ -256,26 +250,23 @@ img {
 }
 
 .list-item-services {
-
 }
 
 /* ---------------TEAM-------------- */
 
 .hero-team {
-  background: #F5F4FA;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+  background: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .title-team {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-color: var(--main-text-color);
-padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-bottom: 50px;
+  padding-top: 94px;
 }
 
 .list-team {
@@ -283,14 +274,37 @@ padding-bottom: 50px;
   column-gap: 30px;
   list-style: none;
 }
-
+/* 
 .list-item-team {
+}
+.photo {
+} */
+
+.team-box-items {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team-title-name {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 color: var(--main-text-color);
-padding-bottom: 94px;
+margin-bottom: 10px;
+}
+
+.list-item-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--main-text-color);
+  background: var(--sub-text-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* ---------------CONTACTS------------------- */
@@ -298,15 +312,14 @@ padding-bottom: 94px;
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
-  
 }
 
 .logo-footer-blue {
   font-family: "Raleway", sans-serif;
-  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -315,8 +328,6 @@ padding-bottom: 94px;
 }
 
 .logo-footer-white {
-  font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -324,23 +335,26 @@ padding-bottom: 94px;
   color: var(--sub-text-color);
 }
 
-.adress {
+.address {
   font-weight: 400;
   line-height: 1.71;
   color: var(--sub-text-color);
   font-style: normal;
-  padding-top: 20px;
-  padding-bottom: 9px;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
 
 .contact-mail-footer,
 .contact-number-footer {
-  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .contact-mail-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
+/* 
+.contact-number-footer {
+  margin-top: 9px;
+} */
