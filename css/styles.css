@@ -71,7 +71,6 @@ img {
 .navigation {
   display: flex;
   gap: 30px;
-  /* justify-content: flex; */
 }
 
  
@@ -84,7 +83,6 @@ img {
   line-height: 1.19;
   background-color: transparent;
 }
-
 
 .logo-header-blue {
   color: var(--text-hover-color);
@@ -125,6 +123,7 @@ img {
   display: flex;
   gap: 30px;
   text-align: center;
+  justify-content: flex-end;
 }
 
 
@@ -134,6 +133,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-contact);
 }
+
+/* --------------HERO---------------- */
 
 .hero {
   padding: 200px 0px 208px;
@@ -151,7 +152,6 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -165,7 +165,7 @@ img {
   padding: 10px 32px;
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
-  
+  border-color: transparent;
 }
 
 .visually-hidden {
@@ -221,6 +221,7 @@ img {
 .sub-title {
   font-style: normal;
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--text-contact);
   max-width: 270px;
@@ -232,23 +233,68 @@ img {
   padding-top: 0;
 }
 
+.services-list {
+  display: flex;
+  column-gap: 30px;
+}
+
 .title-services {
-font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  padding-bottom: 50px;
+}
+
+.list-item-services {
+
+}
+
+/* ---------------TEAM-------------- */
+
+.hero-team {
+  background: #F5F4FA;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.title-team {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-text-color);
+padding-bottom: 50px;
 }
 
-.list-item {
+.list-team {
+  display: flex;
+  column-gap: 30px;
+  list-style: none;
+}
+
+.list-item-team {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+color: var(--main-text-color);
+padding-bottom: 94px;
 }
 
 /* ---------------CONTACTS------------------- */
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+}
+
+.logo-footer {
+  
 }
 
 .logo-footer-blue {
@@ -276,6 +322,8 @@ color: var(--main-text-color);
   line-height: 1.71;
   color: var(--sub-text-color);
   font-style: normal;
+  padding-top: 20px;
+  padding-bottom: 9px;
 }
 
 .contact-mail-footer,
@@ -284,4 +332,8 @@ color: var(--main-text-color);
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-mail-footer {
+  padding-bottom: 9px;
 }
