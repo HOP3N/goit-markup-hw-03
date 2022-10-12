@@ -236,7 +236,14 @@ img {
 
 /* --------------BENEFITS---------- */
 
-.pictures-wrap, .list {
+/* .pictures-wrap {
+
+} */
+
+.list-item-portfolio 
+{}
+
+.title {
   display: flex;
   align-items: center;
   max-width: 1170px;
