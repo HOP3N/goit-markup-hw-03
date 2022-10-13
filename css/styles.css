@@ -99,6 +99,13 @@ img {
   color: var(--main-text-color);
 }
 
+/* .logo-header-black, 
+.logo-footer-blue:hover,
+:focus { 
+  color: none;
+  background-color: transparent;
+} */
+
 .list-item {
   list-style: none;
   background-color: none;
@@ -251,7 +258,9 @@ img {
 }
 
 .item-wrap {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: 0;
 }
 
 /* .title {
