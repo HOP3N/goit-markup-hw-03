@@ -238,17 +238,45 @@ img {
 
 /* --------------BENEFITS---------- */
 
-/* .pictures-wrap {
+.pictures-wrap {
+  display: flex; 
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 94px;
+}
 
-} */
+.list-item-portfolio {
+  list-style: none;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  width: 370px;
+}
 
-.list-item-portfolio 
-{}
-
-.title {
+/* .title {
   display: flex;
   align-items: center;
   max-width: 1170px;
+} */
+
+.title-port {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color:var(--main-text-color);
+  padding: 20px 24px 0 20px;
+}
+
+.sub-title-port {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-contact);
+  padding: 0 24px 20px 24px;
 }
 
 .benefits-list {
@@ -271,8 +299,9 @@ img {
   font-weight: 400;
   line-height: 1.7;
   color: var(--text-contact);
-  max-width: 270px;
+  max-width: 322px;
 }
+
 
 /* -----------------SERVICES-------------------- */
 
