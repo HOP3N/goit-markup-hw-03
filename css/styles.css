@@ -203,11 +203,7 @@ img {
   margin-bottom: 56px;
 }
 
-.bt-m-one {
-  padding: 6px 25px;
-}
-
-.bt-m-rest {
+.btn-main {
   padding: 6px 22px;
 }
 
@@ -220,9 +216,7 @@ img {
   text-align: center;
   color: var(--main-text-color);
   cursor: pointer;
-  background: #F5F4FA;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: #F5F4FA;
   border-radius: 4px;
   border-color: transparent;
 }
@@ -233,6 +227,8 @@ img {
   background-color: transparent;
   color: var(--sub-text-color);
   background-color: var(--text-hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
 } 
 
 
@@ -254,6 +250,10 @@ img {
   width: 370px;
 }
 
+.item-wrap {
+  margin: 20px 24px;
+}
+
 /* .title {
   display: flex;
   align-items: center;
@@ -261,14 +261,12 @@ img {
 } */
 
 .title-port {
-  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color:var(--main-text-color);
-  padding: 20px 24px 0 20px;
-}
+  }
 
 .sub-title-port {
   margin-top: 4px;
@@ -276,7 +274,6 @@ img {
   font-size: 16px;
   line-height: 1.8;
   color: var(--text-contact);
-  padding: 0 24px 20px 24px;
 }
 
 .benefits-list {
